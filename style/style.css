@@ -1,0 +1,488 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 12% 10rem;
+    overflow: hidden;
+}
+
+
+.main .logo {
+    width: 30px;
+}
+.navbar-brand a{
+    padding-right: 40px;
+}
+.nav-item a{
+    color:#000 !important;
+    font-size: 20px;
+    
+    
+}
+.nav-item i{
+    color: #000 !important;
+    font-size: 20px;
+}
+.home{
+    background:url(../assets/img/home2.jpeg);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.featured h1{
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+}
+.featured h2{
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.7;
+    padding-bottom: 30px;
+}
+.featured h3{
+    text-align: center;
+    padding-top: 20px;
+}
+.featured i{
+    text-align: center;
+    color: #eed26c;
+}
+.featured p{
+   text-align: center;
+   opacity: 0.5;
+}
+.featured img{
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+.featured img:hover{
+    transform: scale(1.1);
+
+}
+.rate {
+    margin-left: 90px;
+}
+.best .card_slider{
+    padding: 50px 0;
+}
+.best h1{
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;  
+}
+.best h2{
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.7;
+    padding-bottom: 30px; 
+}
+.best h3{
+    text-align: center;
+    padding-top: 20px;
+
+}
+.best p{
+    text-align: center;
+    opacity: 0.5;
+}
+.best i{
+
+    color: #eed26c;
+}
+.best img{
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+.best img:hover{
+    transform: scale(1.1); 
+}
+.offer h1{
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;  
+}
+.offer h2{
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.7;
+    padding-bottom: 30px; 
+}
+.offer h1 span{
+    color: red;
+}
+.offer h3{
+    text-align: center;
+    padding-top: 20px;  
+    opacity: 0.5;
+}
+.offer img{
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+.offer img:hover{
+    transform: scale(1.1);
+
+}
+.card-box{
+    width: 400px;
+    height: 700px;
+    padding: 20px;
+    margin: 20px;
+    border: px solid #000;
+    background-color:#fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+  
+}
+
+.card-box:hover{
+    transform: scale(1.1);
+    background-color: #000;
+    color: #fff;
+}
+
+.blog h1{
+    font-size: 65px;
+    font-weight: 900;
+    text-align: center;
+}
+.blog h2{
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.7;
+    padding-bottom: 30px; 
+}
+.blog h3{
+    font-size: 22px;
+    padding-top: 20px;
+}
+.blog h4{
+    opacity: 0.7;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 2rem;
+    padding-top: 100;
+  
+  }
+  .footer-box{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  footer h3{
+    color:#000;
+  }
+  .footer-box h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  .footer-box a{
+    color: #979797;
+    margin-bottom: 0.8rem;
+    transition: all .50s ease;
+  }
+  .footer-box a:hover{
+    transform: translateX(-5px);
+    color: var(--text-color);
+  }
+  footer a{
+    color: #000000;
+    text-decoration: none;
+  }
+  .social i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    background:#000;
+    color: #fff;
+  
+    font-size: 20px;
+    border-radius: 50%;
+    margin-right: 8px;
+    transition: transform 0.6s;
+  
+  }
+  .social i:hover{
+    background: var(--main-color);
+    color: var(--bg-color);
+    transform: translateX(-4px);
+  }
+  .copyright p{
+    text-align: center;
+   
+    color: #979797;
+    font-size: 15px;
+    padding-top: 50px;
+  }
+  footer a:hover{
+    color:var(--main-color);
+    
+  }
+  .home-1{
+    background:url(../assets/img/96.jpg);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+  .men h1{
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  .men h2{
+    margin-left: 15px;
+   padding-bottom: 10px;
+   font-size: 25px;
+   
+   
+  }
+  .men-store h1{
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .men-store h2{
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.7;
+    padding-bottom: 20px; 
+}
+.men-store h3{
+    text-align: center;
+    padding-top: 10px;
+
+}
+.men-store i{
+    color: #eed26c;
+    text-align: center;
+}
+.men-store p{
+    text-align: center;
+    opacity: 0.5;
+
+}
+.men-store img{
+    transform: scale(1);
+    transition: transform 0.3s ease;
+    
+}
+.men-store img:hover{
+    transform: scale(1.1); 
+}
+.t-store h1{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.t-store h1 span{
+    color: red;
+}
+.t-store h2{
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.7;
+    padding-bottom: 20px; 
+}
+.t-store img{
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+.t-store img:hover{
+    transform: scale(1.1); 
+}
+.t-store h3{
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.home-2{
+    background:url(../assets/img/101.jpg);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+.women h1{
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  .women h2{
+    margin-left: 15px;
+   padding-bottom: 5px;
+   font-size: 25px;
+   
+  }
+  .women-store h1{
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .women-store h2{
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.7;
+    padding-bottom: 20px; 
+}
+.women-store h3{
+    text-align: center;
+    padding-top: 10px;
+
+}
+.women-store i{
+    color: #eed26c;
+}
+.women-store p{
+    text-align: center;
+    opacity: 0.5;
+
+}
+.women-store img{
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+.women-store img:hover{
+    transform: scale(1.1); 
+}
+
+.we-store h1{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.we-store h1 span{
+    color: red;
+}
+.we-store h2{
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.7;
+    padding-bottom: 20px; 
+}
+.we-store img{
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+.we-store img:hover{
+    transform: scale(1.1); 
+}
+.we-store h3{
+    padding-top: 25px;
+    font-size: 20px;
+}
+.home-3{
+    background:url(../assets/img/freepik-export-20240923100740MFeN.jpeg);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+.kid h1{
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 35px;
+    padding-top: 20px;
+  }
+  .kid h2{
+    margin-left: 15px;
+   padding-bottom: 15px;
+   font-size: 25px;
+   
+  }
+
+
+  .kid-store h1{
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .kid-store h2{
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.7;
+    padding-bottom: 20px; 
+}
+.kid-store h3{
+    text-align: center;
+    padding-top: 10px;
+
+}
+.kid-store i{
+    color: #eed26c;
+}
+.kid-store p{
+    text-align: center;
+    opacity: 0.5;
+
+}
+.kid-store img{
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+.kid-store img:hover{
+    transform: scale(1.1); 
+}
+.home-4{
+    background:url(../assets/img/sports.jpeg);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+.sports h1{
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 40px;
+  }
+  .sports h2{
+    margin-left: 15px;
+   padding-bottom: 15px;
+   font-size: 25px;
+   
+  }
+  .retro h1{
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 40px;
+  }
+  .retro h2{
+    margin-left: 15px;
+   padding-bottom: 15px;
+   font-size: 25px;
+   
+  }
